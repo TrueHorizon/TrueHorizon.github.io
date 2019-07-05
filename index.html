@@ -1,53 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="main.css" />
-    
-  </head>
-  
-  <body>
-    <h1 class="logo">
-      This Day in History
-    </h1>
-    <section class="hero container">
-      <h2>Michelle was right!</h2>
-    </section>
-    
-    <div class="container">
-      <main id="table">
-        <table class="table">
-          <thead>
-            <tr>
-              <th></th>
-              <th>Date</th>
-              <th>Event</th>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+
+</head>
+
+<body>
+  <h1 class="logo">
+    This Day in History
+  </h1>
+  <section class="hero container">
+    <h2>Michelle was right!</h2>
+  </section>
+  <div class="container">
+    <main id="table">
+      <table class="table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Date</th>
+            <th>Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <form class="add-form">
+            <tr class="first-tr">
+              <td class="title-td"><span>Add New</span></td>
+              <td class="static"><input type="text" class="form-control" name="date"></td>
+              <td class="static"><input type="text" class="form-control" name="event"></td>
+              <td class="static"><button type="submit" class="button green"><i class="glyphicon glyphicon-ok"></i></button></td>
             </tr>
-          </thead>
-          <tbody>
-            <form class="add-form">
-              <tr class="first-tr">
-                <td class="title-td"><span>Add New</span></td>
-                <td class="static"><input type="text" class="form-control" name="date"></td>
-                <td class="static"><input type="text" class="form-control" name="event"></td>
-                <td class="static"><button type="submit" class="button green"><i class="glyphicon glyphicon-ok"></i></button></td>
-              </tr>
-            </form>
-            <tr>
-              <td></td>
-              <td>July 5, 2019</td>
-              <td>The table was set up</td>
-              <td class="static"><span class="button red"><i class="glyphicon glyphicon-remove"></i></span></td>
-            </tr>
-          </tbody>
-        </table>
-        <div class="alert">
-          <h2>Error !</h2>
-          <p>Please fill in all fields and resubmit the form.</p>
-          <span class="button remove"><i class="glyphicon glyphicon-remove"></i></span>
-        </div>
-      </main>
-    </div>
-    
-  </body>
+          </form>
+          <tr>
+            <td></td>
+            <td>Today</td>
+            <td>Table was created</td>
+            <td class="static"><span class="button red"><i class="glyphicon glyphicon-remove"></i></span></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="alert">
+        <h2>Error !</h2>
+        <p>Please fill in all fields and resubmit the form.</p>
+        <span class="button remove"><i class="glyphicon glyphicon-remove"></i></span>
+      </div>
+    </main>
+  </div>
+</body>
 
 </html>
