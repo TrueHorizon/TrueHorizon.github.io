@@ -1,0 +1,29 @@
+.logo {
+  border-top: 4px solid #648880;
+  border-bottom: 4px solid #648880;
+  float: center;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  line-height: 44px;
+  padding: 22px 0 22px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero {
+  line-height: 44px;
+  padding: 0px 80px 66px 80px;
+  text-align: center;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container,
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
