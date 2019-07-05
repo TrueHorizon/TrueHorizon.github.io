@@ -1,3 +1,4 @@
+$(document).ready(function() {
 function remove() {
   $(".red").click(function() {
     $(this).closest("tr").remove();
@@ -5,7 +6,7 @@ function remove() {
 }
 remove();
 
-$(".add-form").on("submit", function(e) {
+$(".add-form").on('submit', function(e) {
   e.preventDefault();
   if (
     ($("input[name=date]").val() == "" || $("input[name=event]").val() == "")
@@ -27,4 +28,5 @@ $(".add-form").on("submit", function(e) {
     remove();
     $("input[name=date], input[name=event]").val("");
   }
+});
 });
